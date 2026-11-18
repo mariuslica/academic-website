@@ -89,7 +89,7 @@ shutil.copy(src / "styles.css", out / "styles.css")
 shutil.copy(src / "app.js", out / "app.js")
 (out / ".nojekyll").write_text("")
 with (out / "styles.css").open("a", encoding="utf-8") as f:
-    f.write("\n.citation{margin:10px 0;overflow-wrap:anywhere}.section>h2{margin-top:45px}.hero-portrait{max-width:420px}.nav{gap:20px}"
+    f.write("\n.citation{margin:10px 0;overflow-wrap:anywhere}.section>h2{margin-top:45px}.hero-portrait{max-width:300px;justify-self:end}.nav{gap:20px}"
             ".placeholder-portrait{aspect-ratio:1;display:grid;place-items:center;font:96px var(--serif);color:var(--accent)}"
             "@media print{.header,.footer,button{display:none!important}.wrap{width:100%}}")
 
@@ -148,7 +148,7 @@ page("index", "Acasă", f'''<div class="wrap"><section class="hero"><div><p clas
 <h1>{nume_h1}</h1><p class="position">{esc(POZITIE)}</p><p class="lead">{esc(LEAD)}</p>
 <div class="buttons"><a class="button" href="research.html">Explorează cercetarea →</a><a class="button secondary" href="publications.html">Vezi publicațiile</a></div>
 <div class="profile-links">{profiles}</div></div>
-<div class="hero-portrait"><figure>{portrait}<figcaption class="portrait-caption"><span>POLITEHNICA București</span><span>București, România</span></figcaption></figure></div></section>
+<div class="hero-portrait"><figure>{portrait}<figcaption class="portrait-caption"><span>UNSTPB · București</span></figcaption></figure></div></section>
 <div class="metrics">{"".join(f'<div class="metric"><strong>{esc(a)}</strong><span>{esc(b)}</span></div>' for a, b in METRICI)}</div></div>
 <section class="section wrap"><div class="section-head"><div><p class="eyebrow">Domenii de interes</p><h2>De la imagine la decizie.</h2></div></div>{teme_html}</section>
 <section class="section wrap"><div class="section-head"><div><p class="eyebrow">Lucrări selectate</p><h2>Publicații și contribuții</h2></div><a class="text-link" href="publications.html">Toate publicațiile →</a></div>

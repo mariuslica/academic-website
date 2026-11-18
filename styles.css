@@ -7,4 +7,4 @@
 
 .project-card .project-title{font:2rem/1.2 var(--serif);color:var(--ink);margin:0 0 16px}.project-title a{text-decoration:none}.project-group{margin:52px 0 28px}.project-card p{overflow-wrap:anywhere}.project-meta{flex-wrap:wrap}.project-card .text-link{white-space:normal}.citation{overflow-wrap:anywhere}.hero-portrait{max-width:440px}.project-detail h1{overflow-wrap:anywhere}@media(max-width:740px){.project-card .project-title{font-size:1.7rem}}
 
-.citation{margin:10px 0;overflow-wrap:anywhere}.section>h2{margin-top:45px}.hero-portrait{max-width:420px}.nav{gap:20px}.placeholder-portrait{aspect-ratio:1;display:grid;place-items:center;font:96px var(--serif);color:var(--accent)}@media print{.header,.footer,button{display:none!important}.wrap{width:100%}}
+.citation{margin:10px 0;overflow-wrap:anywhere}.section>h2{margin-top:45px}.hero-portrait{max-width:300px;justify-self:end}.nav{gap:20px}.placeholder-portrait{aspect-ratio:1;display:grid;place-items:center;font:96px var(--serif);color:var(--accent)}@media print{.header,.footer,button{display:none!important}.wrap{width:100%}}
