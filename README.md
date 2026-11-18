@@ -10,4 +10,3 @@ Profil academic: cercetare doctorală, publicații, experiență și contact.
 ## GitHub Pages
 Settings → Pages → Deploy from a branch → main → /docs → Save.
 
-Design adaptat după https://github.com/serigc/academic-website.
